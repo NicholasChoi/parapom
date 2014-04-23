@@ -32,6 +32,7 @@
         XYZMasterViewController *controller = (XYZMasterViewController *)navigationController.topViewController;
         controller.managedObjectContext = self.managedObjectContext;
     }
+    return NO;
     return YES;
 }
 							
